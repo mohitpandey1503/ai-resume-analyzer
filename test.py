@@ -1,1 +1,3 @@
-print("AI Resume Analyzer")
+from utils.parser import parse_resume
+
+print(parse_resume())
